@@ -2,10 +2,12 @@
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
-    height: 3000px;
+    height: 5000px;
     position: relative;
     background-color: #ffffff00;
-    margin-top: 200px;
+    margin-top: 30px;
+    border-style: double;
+    border-color: aliceblue;
 }
 header {
     background-color:rgb(139, 139, 139);
@@ -37,6 +39,8 @@ body {
     background-color: rgb(24, 24, 24);
     height:auto;
     padding-bottom: 900px;
+    border-style: double;
+    border-color: aliceblue;
 }
 footer {
     background-color: black;
@@ -134,6 +138,65 @@ p {
     width: 400px;
     height: 400px;
 }
+.slideshow-container {
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(0, 110, 255);
+    margin-top: 100px;
+    margin-left: 340px;
+} 
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    padding: 5px;
+    margin-left: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    margin-right: 360px;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #008cff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #00ff37;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 
 
 
