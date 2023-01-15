@@ -6,8 +6,6 @@
     position: relative;
     background-color: #ffffff00;
     margin-top: 30px;
-    border-style: double;
-    border-color: aliceblue;
 }
 header {
     background-color:rgb(139, 139, 139);
@@ -15,19 +13,12 @@ header {
     font-family:"Comic Sans MS", "Comic Sans", cursive;
     font-size:100px;
     text-align: center;
-    border-color: black;
-    border-width: 2px;
-    border-style:groove;
-    padding-top: 15%;
 }
 main {
     background-color: rgb(92, 92, 92);
     margin-top: 60px;
-    border-color: black;
-    border-width: 2px;
-    border-style:groove;
     width: 897px;
-    height: 500px;
+    height: 920px;
     padding: 10px;
     border-radius: 15px;
 }
@@ -49,8 +40,6 @@ footer {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    border-style: double;
-    border-color: aliceblue;
 }
 .navbar {
     overflow: hidden;
@@ -87,9 +76,6 @@ p {
 .main2 {
     background-color: rgb(92, 92, 92);
     margin-top: 60px;
-    border-color: black;
-    border-width: 2px;
-    border-style:groove;
     width: 897px;
     height: 500px;
     float: right;
@@ -99,9 +85,6 @@ p {
 .main3 {
     background-color: rgb(92, 92, 92);
     margin-top: 60px;
-    border-color: black;
-    border-width: 2px;
-    border-style:groove;
     width: 897px;
     height: 500px;
     float: left;
@@ -111,9 +94,6 @@ p {
 .main4 {
     background-color: rgb(92, 92, 92);
     margin-top: 60px;
-    border-color: black;
-    border-width: 2px;
-    border-style:groove;
     width: 897px;
     height: 500px;
     float: right;
@@ -159,6 +139,13 @@ p {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.AboutUS {
+    float:left;
+    padding-left: 100px;
+    height:auto;
+}
+
 
 
 
