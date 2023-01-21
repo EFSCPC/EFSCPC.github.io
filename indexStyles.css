@@ -76,25 +76,7 @@ p {
 .main2 {
     background-color: rgb(92, 92, 92);
     margin-top: 60px;
-    width: 897px;
-    height: 500px;
-    float: right;
-    padding: 10px;
-    border-radius: 15px;
-}
-.main3 {
-    background-color: rgb(92, 92, 92);
-    margin-top: 60px;
-    width: 897px;
-    height: 500px;
-    float: left;
-    padding: 10px;
-    border-radius: 15px;
-}
-.main4 {
-    background-color: rgb(92, 92, 92);
-    margin-top: 60px;
-    width: 897px;
+    width:auto;
     height: 500px;
     float: right;
     padding: 10px;
@@ -146,8 +128,19 @@ p {
     height:auto;
 }
 
+button {
+    background-color: rgb(46, 57, 221);
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top:-400px;
+    left:135px;
+}
 
+a:link {
+    color:rgb(255, 255, 255);
+}
 
-
-
-
+a:visited {
+    color: #ddd;
+}
